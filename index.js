@@ -1,4 +1,4 @@
-// index.js (Correct the function name here as well)
+
 let isSpinning = false;
 
 function toggleRotation() {
