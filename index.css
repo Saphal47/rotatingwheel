@@ -29,13 +29,7 @@ body {
     #5733ff 50% 75%,       
     #ffcc33 75% 100%       
   );
-  transform: rotate(360deg);
-}
-
-.disc:hover {
-  animation: spin 0.7s linear infinite;
-  transition: transform 0.3s;
-  transform-style: preserve-3d;
+  transition: transform 1s;
 }
 
 .inner-disc {
@@ -48,11 +42,7 @@ body {
   background: white;
 }
 
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.disc:hover {
+  transform: rotate(360deg);
 }
+
